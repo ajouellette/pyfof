@@ -83,7 +83,7 @@ extensions = [
     Extension(
         "pyfof",
         sources=["pyfof/pyfof" + ext, "pyfof/fof.cc", "pyfof/fof_brute.cc"],
-        extra_compile_args=["-std=c++11", "-Wno-return-type"],
+        extra_compile_args=["-std=c++14", "-Wno-return-type"],
         language="c++",
     )
 ]
